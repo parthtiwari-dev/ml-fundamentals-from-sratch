@@ -1,5 +1,7 @@
 # Implement a @timer decorator and apply it to 3 different functions (data load, train, evaluate).
 
+from datetime import datetime
+
 def timer(f):
     def inner():
         start  = datetime.now()
@@ -20,9 +22,9 @@ def evaluate():
     return None
 
 
-o = timer(load_data)
-t = timer(train)
-e = timer(evaluate)
+# o = timer(load_data)
+# t = timer(train)
+# e = timer(evaluate)
 
 
-print(o(),t(),e())
+# print(o(),t(),e())
