@@ -1,0 +1,15 @@
+{
+  "data": {
+    "path": "data/train.csv"
+  },
+  "model": {
+    "type": "logistic_regression",
+    "params": {
+      "lr": 0.01,
+      "epochs": 100
+    }
+  },
+  "output": {
+    "model_path": "models/model.pkl"
+  }
+}
